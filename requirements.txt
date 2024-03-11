@@ -12,7 +12,7 @@ elevenlabs==0.2.27
 exceptiongroup==1.2.0
 executing==2.0.1
 google==3.0.0
-google-api-core==2.17.1
+google-api-core==2.10.0
 google-api-python-client==2.121.0
 google-auth==2.28.2
 google-auth-httplib2==0.2.0
@@ -27,7 +27,7 @@ matplotlib-inline==0.1.6
 numpy==1.22.4
 parso==0.8.3
 prompt-toolkit==3.0.43
-protobuf==3.17.3
+protobuf==4.25.3
 pure-eval==0.2.2
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
