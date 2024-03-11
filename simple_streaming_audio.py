@@ -7,7 +7,7 @@ set_api_key(os.environ.get("ELEVENLABS_API_KEY"))
 voice_id=os.environ.get("ELEVENLABS_VOICE_ID")
 
 audio_stream = generate(
-	text = "This is a streaming voice! Listen to me talking, it's awesome",
+	text = "This is a streaming voice!",
 	voice=Voice(
         voice_id=voice_id,
         settings=VoiceSettings(stability=0.35, similarity_boost=0.85, style=0, use_speaker_boost=False)
