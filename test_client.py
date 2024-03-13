@@ -93,7 +93,7 @@ def push_audio_track_stream(url, audio_data, samplerate, instance_name):
     print("Channel closed")
 
 
-def main(audio_file, my_instance):
+def main(audio_file, prim_path):
     """
     This demo script shows how to send audio data to Audio2Face Streaming Audio Player via gRPC requests.
     There two options:
@@ -119,7 +119,7 @@ def main(audio_file, my_instance):
     audio_fpath = audio_file
 
     # Prim path of the Audio2Face Streaming Audio Player on the stage (were to push the audio data)
-    instance_name = my_instance
+    instance_name = prim_path
 
     data, samplerate = soundfile.read(audio_fpath, dtype="float32")
 

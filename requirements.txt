@@ -16,6 +16,10 @@ google-api-core==2.17.1
 google-api-python-client==2.121.0
 google-auth==2.28.2
 google-auth-httplib2==0.2.0
+google-cloud-core==2.4.1
+google-cloud-storage==2.15.0
+google-crc32c==1.5.0
+google-resumable-media==2.7.0
 googleapis-common-protos==1.63.0
 grpcio==1.51.3
 gTTS==2.5.1
@@ -25,7 +29,9 @@ ipython==8.22.2
 jedi==0.19.1
 matplotlib-inline==0.1.6
 numpy==1.22.4
+opencv-python==4.9.0.80
 parso==0.8.3
+pillow==10.2.0
 prompt-toolkit==3.0.43
 protobuf==3.19.5
 pure-eval==0.2.2
