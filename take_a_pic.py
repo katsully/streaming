@@ -58,7 +58,8 @@ def take_image():
     # where we are grabbing the image we just took in the code above
     path = "frames/frame.jpg"
 
-    # set up the path where we are uploading the image in the image
+    # set up the path where we are uploading the image to the 
+    # google storage bucket
     blob = bucket.blob("images/{}.jpg".format("frame"))
 
     blob.content_type = "image/jpeg"
